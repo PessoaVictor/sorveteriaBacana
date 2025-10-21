@@ -1,0 +1,15 @@
+[
+    { "id": "olinda-bairro-novo", "name": "Bairro Novo, Olinda" },
+    { "id": "recife-fundao", "name": "Fundão, Recife" },
+    { "id": "recife-campo-grande", "name": "Campo Grande, Recife" },
+    { "id": "recife-porto-madeira", "name": "Porto da Madeira, Recife" },
+    { "id": "recife-imbiribeira", "name": "Imbiribeira, Recife" },
+    { "id": "recife-gracas", "name": "Graças, Recife" },
+    { "id": "recife-barro", "name": "Barro, Recife" },
+    { "id": "recife-bomba-hemeterio", "name": "Bomba do Hemetério, Recife" },
+    { "id": "jaboatao-candeias", "name": "Candeias, Jaboatão" },
+    { "id": "abreu-e-lima-centro", "name": "Centro, Abreu e Lima" },
+    { "id": "carpina-sao-sebastiao", "name": "São Sebastião, Carpina" },
+    { "id": "olinda-jardim-atlantico", "name": "Jardim Atlântico, Olinda" },
+    { "id": "paulista-janga", "name": "Janga, Paulista" }
+]

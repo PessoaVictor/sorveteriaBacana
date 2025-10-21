@@ -1,0 +1,41 @@
+{
+    "name": "Bairro Novo, Olinda",
+    "address": "Av. Pres. Getúlio Vargas, 166 - Bairro Novo, Olinda - PE, 53030-010",
+    "phone": "(81) 3429-2110",
+    "hours": "Todos os dias: 12:00–22:00",
+    "location_note": null,
+    "promotions": [
+        {
+            "title": "Rodízio de Sorvetes",
+            "description": "De terça-feira à domingo, 1 hora por pessoa. Toda quarta-feira tem clone de milk shake.",
+            "price": "R$ 49,90 por pessoa",
+            "image": "assets/images/promocao-rodizio.jpeg"
+        },
+        {
+            "title": "2 X-Bacana por R$24,00",
+            "description": "&nbsp;",
+            "price": "&nbsp;",
+            "image": "assets/images/promocao-burger.jpeg"
+        },
+        {
+            "title": "Combo Sanduíches",
+            "description": "Consulte o cardápio",
+            "price": "&nbsp;",
+            "image": "assets/images/combos.jpeg"
+        }
+    ],
+    "flavors": {
+        "todos": [
+            "ABACAXI AO VINHO", "AÇAÍ", "AMEIXA", "AMENDOIM", "AMENDOIM C/ COCO", "AMOR PERFEITO", "BANANA CARAMELADA", "BATRAZ", "BEIJINHO DE COCO", "BEM CASADO", "BOLO DE ROLO", "CAJÁ", "CASTANHA", "CHOCOMENTA", "CHOCOLATE", "CHOCOLATE BELGA", "CHOCOLATE BRANCO", "CHOCOLATE SUIÇO", "CHOQUITO", "COCO", "COCO TRUFADO", "CREME C/ PASSAS", "CREME DO CÉU", "CUPUAÇU", "DELICIA DE ABACAXI", "DELICIA DE COCO", "DELICIA MORANGO", "DOCE DE LEITE", "FLOCOS", "FRUTAS VERMELHAS", "GRAVIOLA", "MANGA", "MARACUJÁ", "MORANGO", "MORANGO DIET", "NATA GOIABA", "NINHO", "NINHO C/ NUTELA", "OREO", "OVOMALTINE", "PISTACHE", "PITANGA", "TANGERINA", "UMBU-CAJÁ", "ZEBRATA"
+        ],
+        "cremosos": [
+            "AMENDOIM", "AMENDOIM C/ COCO", "AMOR PERFEITO", "BANANA CARAMELADA", "BATRAZ", "BEIJINHO DE COCO", "BEM CASADO", "BOLO DE ROLO", "CASTANHA", "CHOCOMENTA", "CHOCOLATE", "CHOCOLATE BELGA", "CHOCOLATE BRANCO", "CHOCOLATE SUIÇO", "CHOQUITO", "COCO", "COCO TRUFADO", "CREME C/ PASSAS", "CREME DO CÉU", "DELICIA DE COCO", "DOCE DE LEITE", "FLOCOS", "NATA GOIABA", "NINHO", "NINHO C/ NUTELA", "OREO", "OVOMALTINE", "PISTACHE", "ZEBRATA"
+        ],
+        "frutas": [
+            "ABACAXI AO VINHO", "AÇAÍ", "AMEIXA", "CAJÁ", "CUPUAÇU", "DELICIA DE ABACAXI", "DELICIA MORANGO", "FRUTAS VERMELHAS", "GRAVIOLA", "MANGA", "MARACUJÁ", "MORANGO", "PITANGA", "TANGERINA", "UMBU-CAJÁ"
+        ],
+        "diet": [
+            "MORANGO DIET"
+        ]
+    }
+}
