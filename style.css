@@ -1,3 +1,252 @@
+@media (max-width: 900px) {
+    .cardapio-row-full {
+        padding: 20px 8px 12px 8px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+    .cardapio-row-full h3 {
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+    }
+    .cardapio-row-full li {
+        font-size: 0.98rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+    }
+    .cardapio-row-full li span {
+        margin-left: 0;
+        margin-top: 2px;
+    }
+}
+.cardapio-row-full {
+    width: 100%;
+    margin: 0 auto 32px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    padding: 32px 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+.cardapio-row-full h3 {
+    font-size: 1.35rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.cardapio-row-full ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px 0;
+    width: 100%;
+}
+.cardapio-row-full li {
+    padding: 10px 0 6px 0;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 1.05rem;
+    color: #333;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.cardapio-row-full li:last-child {
+    border-bottom: none;
+}
+.cardapio-row-full li strong {
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+.cardapio-row-full li span {
+    font-weight: 500;
+    color: var(--primary-color);
+    white-space: nowrap;
+    margin-left: 16px;
+}
+.sanduiches-duas-colunas {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+.sanduiches-duas-colunas ul {
+    flex: 1 1 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+@media (max-width: 700px) {
+    .sanduiches-duas-colunas {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+.cardapio-col h3 {
+    font-size: 1.35rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #ffe0c2;
+    margin-top: 24px;
+}
+.cardapio-col h3:first-child {
+    margin-top: 0;
+}
+.cardapio-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 18px 0;
+}
+.cardapio-divider {
+    height: 1px;
+    background: linear-gradient(90deg, #fff, #ffe0c2 40%, #fff 100%);
+    border: none;
+    margin: 18px 0 18px 0;
+}
+.cardapio-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 48px 40px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.cardapio-col {
+    flex: 1 1 340px;
+    min-width: 280px;
+    max-width: 370px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    padding: 32px 24px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: stretch;
+    height: 100%;
+}
+.cardapio-col h3 {
+    font-size: 1.35rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.cardapio-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px 0;
+}
+.cardapio-col li {
+    padding: 10px 0 6px 0;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 1.05rem;
+    color: #333;
+    line-height: 1.5;
+}
+.cardapio-item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+.cardapio-item-nome {
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+.cardapio-item-preco {
+    font-weight: 500;
+    color: var(--primary-color);
+    white-space: nowrap;
+    margin-left: 16px;
+}
+.cardapio-item-desc {
+    font-size: 0.97rem;
+    color: #666;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.cardapio-col li:last-child {
+    border-bottom: none;
+}
+.cardapio-col li strong {
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+.cardapio-col li span {
+    font-weight: 500;
+    color: var(--primary-color);
+    white-space: nowrap;
+    margin-left: 16px;
+}
+@media (max-width: 1100px) {
+    .cardapio-list {
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+    .cardapio-col {
+        max-width: 100%;
+        min-width: 0;
+    }
+}
+@media (max-width: 900px) {
+    .cardapio-list {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .cardapio-col {
+        min-width: 0;
+        width: 100%;
+    }
+}
+.flavor-tabs {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    vertical-align: baseline !important;
+    line-height: 1.2 !important;
+    box-shadow: none !important;
+    transform: none !important;
+    outline: none !important;
+    margin: 0 !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+.flavor-tabs .tab-button {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+@media (prefers-color-scheme: dark) {
+    html, body {
+        background: var(--light-color) !important;
+        color-scheme: light;
+    }
+    body, .section-bg-alt, .container, .header, .hero, .sobre, .sabores, .promocoes, .cardapio, .galeria, .contato {
+        background: var(--light-color) !important;
+        filter: none !important;
+    }
+}
+.animate.fade-up {
+    transform: translateY(40px);
+}
+.animate.fade-up.active {
+    transform: none;
+}
+.animate.zoom-in {
+    transform: scale(0.85);
+}
+.animate.zoom-in.active {
+    transform: scale(1);
+}
 :root {
     --primary-color: #ff6600;
     --secondary-color: #003366;
@@ -157,6 +406,25 @@ section {
 .hero {
     padding: 160px 0 100px;
     background: linear-gradient(135deg, var(--light-color), #fff0e6);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 140%;
+    background-image: url('assets/images/fachada.jpeg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.13;
+    z-index: 0;
+    will-change: transform;
+    transition: transform 0.2s;
+    pointer-events: none;
 }
 
 .hero .container {
@@ -165,6 +433,29 @@ section {
     align-items: center;
     text-align: center;
     gap: 40px;
+    z-index: 1;
+    background: rgba(255,255,255,0.32);
+    border-radius: 32px;
+    box-shadow: 0 8px 40px 0 rgba(0,0,0,0.10), 0 1.5px 0 0 rgba(255,255,255,0.18) inset;
+    padding: 48px 32px 40px 32px;
+    border: 1.5px solid rgba(255,255,255,0.35);
+    backdrop-filter: blur(12px) saturate(1.2);
+    transition: background 0.3s, box-shadow 0.3s, border 0.3s;
+    position: relative;
+    overflow: visible;
+}
+.hero .container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 32px;
+    pointer-events: none;
+    box-shadow: 0 0 80px 10px rgba(255,255,255,0.18);
+    z-index: 0;
+}
+.hero-content, .hero-image {
+    position: relative;
+    z-index: 1;
 }
 
 .hero-content h2 {
@@ -173,18 +464,43 @@ section {
     margin-bottom: 20px;
     color: var(--dark-color);
     line-height: 1.2;
+    text-shadow: 0 2px 16px #fff8, 0 1px 0 #fff;
 }
 
 .hero-content p {
     font-size: 1.1rem;
     margin-bottom: 40px;
     color: var(--text-color);
+    text-shadow: 0 1px 8px #fff8;
 }
 
 .hero-image {
     border-radius: var(--border-radius);
     overflow: hidden;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    background: rgba(255,255,255,0.7);
+    z-index: 1;
+}
+
+.animate {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(.4,0,.2,1), transform 0.8s cubic-bezier(.4,0,.2,1);
+}
+.animate.active {
+    opacity: 1;
+    transform: none;
+}
+
+.animate.fade-left {
+    transform: translateX(-40px);
+}
+.animate.fade-right {
+    transform: translateX(40px);
+}
+.animate.fade-left.active,
+.animate.fade-right.active {
+    transform: none;
 }
 
 .sobre-content {
@@ -527,9 +843,9 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.8);
-    color: white;
+    color: #fff;
     font-size: 2rem;
-    background: rgba(255, 102, 0, 0.7);
+    background: #c85000;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -615,7 +931,6 @@ section {
     fill: var(--light-gray);
 }
 
-/* Store Selector */
 .store-selector {
     cursor: pointer;
     display: flex;
@@ -648,7 +963,6 @@ section {
     justify-content: center;
 }
 
-/* Store Modal */
 body.modal-open {
     overflow: hidden;
 }
@@ -706,7 +1020,6 @@ body.modal-open {
     font-size: 0.9rem;
 }
 
-/* Sabores Section Tabs */
 .sabor-card-visual {
     border-radius: var(--border-radius);
     overflow: hidden;
@@ -720,7 +1033,7 @@ body.modal-open {
 }
 
 .flavor-tabs-container {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .flavor-tabs {
@@ -732,6 +1045,7 @@ body.modal-open {
 }
 
 .tab-button {
+    box-sizing: border-box !important;
     padding: 12px 25px;
     font-size: 1rem;
     font-weight: 600;
@@ -746,12 +1060,26 @@ body.modal-open {
 .tab-button:hover {
     background-color: #e9ecef;
     border-color: #ced4da;
+    transform: none !important;
+    box-shadow: none !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    margin: 0 !important;
+    outline: none !important;
+    vertical-align: middle !important;
 }
 
 .tab-button.active {
     background: var(--gradient-primary);
     color: white;
     border-color: transparent;
+    transform: none !important;
+    box-shadow: none !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    margin: 0 !important;
+    outline: none !important;
+    vertical-align: middle !important;
 }
 
 .tab-panel {
@@ -761,6 +1089,7 @@ body.modal-open {
 
 .tab-panel.active {
     display: block;
+    margin-top: 20px;
 }
 
 .tab-panel ul {
@@ -779,7 +1108,6 @@ body.modal-open {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .section-header h2 {
         font-size: 2.8rem;
@@ -869,7 +1197,6 @@ body.modal-open {
     }
 }
 
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .tab-panel ul {
         columns: 3;

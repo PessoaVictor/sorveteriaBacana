@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <i class="fas fa-phone-alt"></i>
                     <div>
                         <h3>Telefone</h3>
-                        <p><a href="https://wa.me/55${selectedStore.phone.replace(/\D/g, '')}" target="_blank">${selectedStore.phone}</a></p>
+                        <p><a href="https://wa.me/55${selectedStore.phone.replaceAll(/\D/g, '')}" target="_blank">${selectedStore.phone}</a></p>
                     </div>
                 </div>` 
                 : '';
@@ -234,8 +234,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 ${phoneHtml}
             `;
         }
-        
+
         initAnimations(); 
+    }
+
+    function parallaxHero() {
+        const hero = document.querySelector('.hero');
+        if (!hero) return;
+        const parallax = () => {
+            const scrollY = window.scrollY;
+            hero.style.setProperty('--parallax', scrollY * 0.3 + 'px');
+            hero.style.setProperty('--parallax-bg', `${scrollY * 0.3}px`);
+        };
+        window.addEventListener('scroll', parallax);
     }
 
     function initAnimations() {
@@ -251,6 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for (const el of elementsToAnimate) {
             observer.observe(el);
         }
+        parallaxHero();
     }
 
     function initApp() {
